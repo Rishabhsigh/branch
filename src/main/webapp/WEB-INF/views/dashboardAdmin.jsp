@@ -4,28 +4,31 @@
 <jsp:include page="adminNav.jsp"></jsp:include>
 <head>
 <script src="<c:url value="/resources/js/login.js" />"></script>
-</head> 
+</head>
 <body>
-<div id="registration">
-<div id="product">
-<div class="container my_course_red">
+	<div id="registration">
+		<div id="product">
+			<div class="container my_course_red">
 
-<div class="container">
+				<div class="container">
 
-<!-- Form Name -->
-<form:form action="login" method="post" modelAttribute="userLogin" id="userRegForm" name="userRegForm" style="max-width:500px;margin:auto">
-  
-<c:if test="${result ne null}">
- <h5 class="text-right" style="color:red">Hi,${result}<br>
-</h5>
-</c:if>
-<!-- Text input-->
-<h1 class="text-center" style="color:red">Under Development
-</h1>
-</form:form>
-</div>
-  </div>
-  </div>
-  </div>
+					<!-- Form Name -->
+					<form:form action="login" method="post" modelAttribute="userLogin"
+						id="userRegForm" name="userRegForm"
+						style="max-width:500px;margin:auto">
+
+						<c:if test="${result ne null}">
+							<h5 class="text-right" style="color: red">
+								Hi,${result}<br>
+							</h5>
+						</c:if>
+						<!-- Text input-->
+						<h1 class="text-center" style="color: red">Under Development
+						</h1>
+					</form:form>
+				</div>
+			</div>
+		</div>
+	</div>
 </body>
 <jsp:include page="footer.jsp"></jsp:include>

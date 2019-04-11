@@ -6,7 +6,7 @@ package com.his.co.model;
 import lombok.Data;
 
 /**
- * @author vinay
+ * @author Rishu
  *
  */
 @Data()
